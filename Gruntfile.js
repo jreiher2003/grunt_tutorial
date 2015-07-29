@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     uglify: {
       build: {
         src: 'js/app.js', // input 
-        dest: 'build/js/app.min.js'  // output
+        dest: 'js/build/app.min.js'  // output
       }
     }
   });

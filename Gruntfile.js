@@ -10,12 +10,13 @@ module.exports = function(grunt) {
       }
     },
     sass: {
-       options: {
-            sourceMap: true
-        },
+
         dist: {
+           options: {
+            sourceMap: true
+            },
             files: {
-                'main.css': 'main.scss'
+                'static/build/main.css': 'static/main.scss'
             }
         }
 
